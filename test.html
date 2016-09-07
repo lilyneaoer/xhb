@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>{ZjjCmsSys:SiteName} - {ZjjCmsSys:SiteTitle}</title>
+    <meta name="keywords" content="{ZjjCmsSys:SiteKey}" />
+    <meta name="description" content="{ZjjCmsSys:SiteDesc}" />
+    <link href="{ZjjCmsSys:ThemePath}csss/Index.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="{ZjjCmsSys:ThemePath}jsjs/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="{ZjjCmsSys:ThemePath}jsjs/Article.js"></script>
+    <script src="{ZjjCmsSys:ThemePath}jsjs/slide.js" type="text/javascript"></script></head>
+<body>
+<!--头部与幻灯片背景-->
+<div class="ZyHeadContainer">
+    <div class="ZyHeadBox">
+        <!--Logo与Search-->
+        <div class="LogoBox">
+            <!--Logo部分-->
+            <div class="Logo">
+                <img src="{ZjjCmsSys:ThemePath}images/Logo.png" />
+            </div>
+            <!--项目咨询热线-->
+            <div class="Zxrx">
+                <img src="{ZjjCmsSys:ThemePath}images/xmrx.png" />
+            </div>
+            <!--Search-->
+            <form action="/search/" method="get">
+                <div class="Search">
+                    <ul>
+                        <li>
+                            <input type="hidden" name="ChannelId" value="1" /><input name="key"  type="text" value="内容搜索..." onfocus="javascript:if(this.value=='内容搜索...'){this.value='';this.style.color='#000'}" onblur="javascript:if(this.value==''){this.value='内容搜索                       ...';this.style.color='#7B7C7D'}"  style="height:13px;color:#CCC;" />
+                        </li>
+                        <li>
+                            <input type="image"  src="{ZjjCmsSys:ThemePath}images/Search.png" style="width:22px; height:19px;"/>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <!--NvgBox-->
+        <div id="Top">
+            <div class="Toolbar1">
+                <div class="CentreBox">
+                    <div class="Menu" >
+                        <ul class="List1" >
+                            <li style="background-image:none"><a href="../index.html">首页</a></li>
+
+                            <li><a href="/gywm/gywm_1.html">关于我们</a></li>
+
+                            <li><a href="/xwgg/">新闻动态</a></li>
+
+                            <li><a href="/zzzs/zzzs_3.html">资质证书</a></li>
+
+                            <li ><a href="/fwfw/fwfw_4.html">服务范围</a></li>
+
+                            <li><a href="/xmzs/">项目展示</a></li>
+
+                            <li><a href="/rczp/rczp_2.html">人才招聘</a></li>
+
+                            <li><a href="/zxly/zxly_1.html">在线留言</a></li>
+
+                            <li><a href="/lxwm/lxwm_1.html">联系我们</a></li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="Toolbar2">
+                <div class="CentreBox">
+                    <div class="Menu" style="float:left">
+
+                    </div>
+                    <div class="Menu Hide" style="float:left; ">
+                        {zjjcms:type ChannelId="8" num="15" pid="0"}
+                        {zjjcms:datalist ChannelId="8" classId="[type.id]" num="5"}
+                        <a href="[datalist.url]">[datalist.title]&nbsp;&nbsp;&nbsp;|</a>
+                        {/zjjcms:datalist}
+                        {/zjjcms:type}
+                    </div>
+                    <div class="Menu Hide" style="float:left">
+                        {zjjcms:type ChannelId="1" num="3" pid="0"}
+                        <a href="[type.url]">[type.CnName]&nbsp;&nbsp;&nbsp;|</a>
+
+                        {/zjjcms:type}
+                    </div>
+
+                    <div class="Menu Hide" style="text-align:center">
+                        {zjjcms:type ChannelId="9"  pid="0"}
+                        {zjjcms:datalist ChannelId="9" classId="[type.id]" num="6"}
+                        <a href="[datalist.url]"style="text-align:center; width:105px;display:block; float:left">[datalist.title]&nbsp;&nbsp;&nbsp;|</a>
+                        {/zjjcms:datalist}
+                        {/zjjcms:type}
+
+                    </div>
+
+                    <div class="Menu Hide" style="text-align:center;">
+                        {zjjcms:type ChannelId="10"  pid="0"}
+                        {zjjcms:datalist ChannelId="10" classId="[type.id]" num="5"}
+                        <a href="[datalist.url]" style="text-align:center; width:105px;display:block; float:left">[datalist.title]&nbsp;&nbsp;&nbsp;&nbsp|</a>
+                        {/zjjcms:datalist}
+                        {/zjjcms:type}
+                    </div>
+
+                    <div class="Menu Hide" style=" text-align:center; float:left;margin-left:400px">
+                        {zjjcms:type ChannelId="3" num="5" pid="0"}
+                        <a href="[type.url]" style="text-align:center; width:105px;display:block;float:left;">[type.CnName]&nbsp;&nbsp;&nbsp;&nbsp|</a>
+                        {/zjjcms:type}
+
+                    </div>
+
+                    <div class="Menu Hide" style=" text-align:right;float:left;margin-left:510px">
+                        {zjjcms:type ChannelId="11"  pid="0"}
+                        {zjjcms:datalist ChannelId="11" classId="[type.id]" num="2"}
+                        <a href="[datalist.url]" style="text-align:center; width:105px;display:block;float:left;">[datalist.title]&nbsp;&nbsp;&nbsp;&nbsp|</a>
+                        {/zjjcms:datalist}
+                        {/zjjcms:type}
+                    </div>
+
+                    <div class="Menu Hide" style="text-align:right;float:left;margin-left:750px">
+                        {zjjcms:type ChannelId="12"  pid="0"}
+                        {zjjcms:datalist ChannelId="12" classId="[type.id]" num="1"}
+                        <a href="[datalist.url]" style="text-align:center; width:105px;display:block;float:left;">[datalist.title]&nbsp;&nbsp;&nbsp;&nbsp|</a>
+                        {/zjjcms:datalist}
+                        {/zjjcms:type}
+                    </div>
+
+                    <div class="Menu Hide" style=" text-align:right">
+
+                        {zjjcms:type ChannelId="13"  pid="0"}
+                        {zjjcms:datalist ChannelId="13" classId="[type.id]" num="3"}
+                        <a href="[datalist.url]" style="text-align:center; width:105px;display:block;float:right;">[datalist.title]&nbsp;&nbsp;&nbsp;&nbsp|</a>
+                        {/zjjcms:datalist}
+                        {/zjjcms:type}
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--枝叶图片区域-->
+        <div class="ZyPicture">
+            [GetAd id="8"]                     </div>
+
+        <!--最新公告-->
+        <div class="Zxgg">
+            <img src="{ZjjCmsSys:ThemePath}images/Zxgg.png" style="float:left" />
+            <ul>
+                {zjjcms:datalist ChannelId="1"  num="3"}
+
+
+
+                <li>>><a href="[datalist.url]">[datalist.title len="25"]</a><span>[datalist.addtime]</span></li>
+
+
+                {/zjjcms:datalist}     </ul>
+        </div>
+    </div>
+</div>
+<!--content-->
+<div class="Content">
+    <div class="ContentLeft"><!--content左边的内容-->
+        <div class="Zynvg"><!--枝叶导航栏的内容-->
+            <img src="{ZjjCmsSys:ThemePath}images/zyLxwm.png"/>
+            <ul>
+                {zjjcms:type ChannelId="13"  pid="0"}
+                {zjjcms:datalist ChannelId="13" classId="[type.id]" num="3"}
+                <li> <a href="[datalist.url]">[datalist.title]</a></li>
+                {/zjjcms:datalist}
+                {/zjjcms:type}               </ul>
+        </div>
+        {include ("通用左边.html")}     </div>
+    <div class="ContentRight"><!--content右边的内容-->
+        <div class="Ts">
+            <div class="TsPicture"><img src="{ZjjCmsSys:ThemePath}images/Border.png"/></div>
+            <div class="TsTitle">[title]</div>
+            <div class="TsTitle1">
+                <img src="{ZjjCmsSys:ThemePath}images/greens.png" style="margin-right:2px;" />你现在的位置：<a href="../index.html">首页</a>-联系我们-[title]           </div>
+        </div>
+        <div class="Main">[content]</div>
+    </div>
+</div>
+{include ("通用尾部.html")}
