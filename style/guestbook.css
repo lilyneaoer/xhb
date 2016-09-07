@@ -1,0 +1,45 @@
+/*留言表单样式*/
+/*http://nxcms.ynnanxun.cn/zxly/zxly_1.html*/
+#ycen, #info {
+    font-size: 16px;
+    font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+}
+
+#ycen input {
+    margin: 6px 0;
+    padding: 3px 0;
+    color: #787878;
+    font-size: 16px;
+    font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+    font-weight: normal;
+    border: 1px solid #A9A9A9;
+    border-radius: 3px;
+}
+
+.fontred {
+    color: #FF4747;
+    padding: 0 0 0 5px;
+}
+
+#ycen table tr td {
+    vertical-align: middle;
+}
+
+#info {
+    width: 390px;
+    margin: 10px 0;
+    border: 1px solid #A9A9A9;
+    border-radius: 3px;
+}
+
+#ycen #subBtn {
+    width: 220px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 5px 0;
+    letter-spacing: 5px;
+    color: #FFF;
+    background: #FF4747;
+    border: 1px solid #FF4747;
+    border-radius: 10px;
+}
